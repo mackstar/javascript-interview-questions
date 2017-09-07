@@ -16,3 +16,8 @@ for (var i = 0; i < numbers.length; i++) {
 numbers.forEach(function(number) {
     console.log(number);
 })
+
+//functional ES6
+numbers.forEach((number) => {
+    console.log(number);
+})
