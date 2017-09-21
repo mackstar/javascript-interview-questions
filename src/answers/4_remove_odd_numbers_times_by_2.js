@@ -7,8 +7,7 @@ var numbers = [1,2,3,4,5]
 
 //non functional
 var evens = []
-var j = 0;
-for (var i = 0; i < numbers.length; i++ ){    
+for (var j = 0, i = 0; i < numbers.length; i++ ){    
     if (numbers[i] % 2 == 0) {
          evens[j] = numbers[i] * 2
          j++
@@ -22,3 +21,12 @@ evens = numbers.filter(function(number) {
 }).map(function(number) {
     return number * 2
 })
+console.log(evens)
+
+//functional ES6
+evens = numbers.filter((number) => {
+    return number % 2 == 0
+}).map((number) => {
+    return number * 2
+})
+console.log(evens)
