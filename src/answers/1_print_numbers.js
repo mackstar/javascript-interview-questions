@@ -21,3 +21,5 @@ numbers.forEach(function(number) {
 numbers.forEach((number) => {
     console.log(number);
 })
+//OR 
+numbers.forEach((number) => console.log(number))
