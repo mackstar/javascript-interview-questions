@@ -30,3 +30,7 @@ evens = numbers.filter((number) => {
     return number * 2
 })
 console.log(evens)
+
+// ES6
+var newNumbers = numbers.filter(number => number % 2 == true).map(number => number * 2)
+
