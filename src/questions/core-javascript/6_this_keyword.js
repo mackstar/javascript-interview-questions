@@ -32,12 +32,3 @@ sayName()
 
 // 6 When a new is used. What happens behind the screens?   
 
-/* 
-   behind the screens
-   this = {}
-   setup inher
-   Using 'New' means function returns 'this'
-   every new object would also have its own version of the sayName function
-
-   lexical scope. 
-*/
